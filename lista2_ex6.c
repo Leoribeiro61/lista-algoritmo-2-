@@ -17,15 +17,15 @@ int main(){
     scanf("%f" , &altura); 
     
 
-    if (sexo== 'm' || sexo== 'M')
-        {
+    if (sexo== 'm' || sexo== 'M'){
             resultadoHomem = (72.7 * altura ) - 58; 
             printf("Resultado homem: %.1f\n", resultadoHomem);
         }
-        else
-        {
+        else if (sexo == 'f' || sexo == 'F'){
             resultadoMulher = (62.1 * altura ) - 44.7;
             printf("Resultado homem: %.1f\n" , resultadoMulher); 
-
+        }
+        {
+            else printf("Entrada invalida");
         }
 }

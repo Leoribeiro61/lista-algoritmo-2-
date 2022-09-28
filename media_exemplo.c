@@ -11,7 +11,5 @@ int main(){
 
     if (media >= 7)
         printf("APROVADO! \n"); 
-        else printf("REPROVADO!"); 
-
-
+        else printf("REPROVADO!");
 }

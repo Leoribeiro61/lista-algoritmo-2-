@@ -13,7 +13,7 @@ int main(){
 
     printf("Digite o sexo: \n"); 
     scanf("%c" , &sexo);
-    printf("Qual a altura: \n");
+    printf("Qual a altura: \n"); 
     scanf("%f" , &altura); 
     
 
